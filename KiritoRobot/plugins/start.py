@@ -1,7 +1,7 @@
 """
 BSD 2-Clause License
 
-Copyright (c) 2022, Awesome-Prince (https://github.com/Awesome-Prince)
+Copyright (c) 2022, TeamAloneOp (https://github.com/TeamAloneOp)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -40,17 +40,17 @@ I am an Anime themed advance group management bot with a lot of Cool Features.**
 """
 
 
-@tbot.on(events.NewMessage(pattern="^/start(@KiritoXProBot)?$"))
+@tbot.on(events.NewMessage(pattern="^/start(@KiritoXBot)?$"))
 async def start(event):
 
     if event.is_private:
         await event.reply(
             PM_START_TEXT.format(event.sender.first_name),
             buttons = [
-    [Button.url("Add To Your Guild", "https://t.me/KiritoXProBot?startgroup=true")],
+    [Button.url("Add To Your Guild", "https://t.me/KiritoXBot?startgroup=true")],
     [
         Button.inline("Terms And Conditions", data="tc"),
-        Button.url("Error Report", "https://t.me/ProgrammerSupport"),
+        Button.url("Error Report", "https://t.me/AlonesHeaven"),
     ],
     [Button.inline("System Call", data="help")],
 ],
@@ -72,8 +72,8 @@ tc = """
 ➛ 𝐃ᴏ 𝐍ᴏᴛ 𝐒ᴘᴀᴍ 𝐂ᴏᴍᴍᴀɴᴅ𝐬 , 𝐁ᴜᴛᴛᴏɴ𝐬 , 𝐎ʀ 𝐀ɴʏᴛʜɪɴɢ 𝐈ɴ 𝐁ᴏᴛ 𝐏ᴍ
 
 𝙉𝙊𝙏𝙀: 𝐓ᴇʀᴍ𝐬 𝐀ɴᴅ 𝐂ᴏɴᴅɪᴛɪᴏɴ𝐬 𝐌ɪɢʜᴛ 𝐂ʜᴀɴɢᴇ 𝐀ɴʏᴛɪᴍᴇ.
-**𝐒𝐞𝐫𝐯𝐞𝐫 𝐂𝐫𝐞𝐚𝐭𝐨𝐫:** [𝐂ʟɪᴄᴋ 𝐇ᴇʀᴇ](t.me/Its_IZ_Me_Prince_xd)
-**404 𝑹𝒆𝒑𝒐𝒓𝒕:** [𝐂ʟɪᴄᴋ 𝐇ᴇʀᴇ](t.me/ProgrammerSupport)
+**𝐒𝐞𝐫𝐯𝐞𝐫 𝐂𝐫𝐞𝐚𝐭𝐨𝐫:** [𝐂ʟɪᴄᴋ 𝐇ᴇʀᴇ](t.me/ALONE_WAS_BOT)
+**404 𝑹𝒆𝒑𝒐𝒓𝒕:** [𝐂ʟɪᴄᴋ 𝐇ᴇʀᴇ](t.me/AlonesHeaven)
 """
 
            
@@ -85,10 +85,10 @@ async def t_c(e):
 @swordinline(pattern=r"back")
 async def _(event):
     btn = [
-    [Button.url("Add To Your Guild", "https://t.me/KiritoXProBot?startgroup=true")],
+    [Button.url("Add To Your Guild", "https://t.me/KiritoXBot?startgroup=true")],
     [
         Button.inline("Terms And Conditions", data="tc"),
-        Button.url("Error Report", "https://t.me/ProgrammerSupport"),
+        Button.url("Error Report", "https://t.me/AlonesHeaven"),
     ],
     [Button.inline("System Call", data="help")],
 ]

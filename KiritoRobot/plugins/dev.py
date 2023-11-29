@@ -1,7 +1,7 @@
 """
 BSD 2-Clause License
 
-Copyright (c) 2022, Awesome-Prince (https://github.com/Awesome-Prince)
+Copyright (c) 2022, TeamAloneOp (https://github.com/TeamAloneOp)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -36,7 +36,7 @@ from KiritoRobot import tbot
 
 # telethon eval
 
-@tbot.on(events.NewMessage(from_users=[5629305049], pattern="^/te ?(.*)"))
+@tbot.on(events.NewMessage(from_users=[6079943111], pattern="^/te ?(.*)"))
 async def eval(event):
     if event.fwd_from:
         return
@@ -97,7 +97,7 @@ async def aexec(code, smessatatus):
     return await locals()["__aexec"](message, reply, tbot, p)
 
 
-@tbot.on(events.NewMessage(from_users=[1544286112, 5362971543], pattern="^/sh ?(.*)"))
+@tbot.on(events.NewMessage(from_users=[6079943111], pattern="^/sh ?(.*)"))
 async def terminal(client, message):
     sh_eval_msg = await e_or_r(tbot_message=message, msg_text="`Processing...`")
     if len(message.text.split()) == 1:

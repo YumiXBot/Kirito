@@ -1,7 +1,7 @@
 """
 BSD 2-Clause License
 
-Copyright (c) 2022, Awesome-Prince (https://github.com/Awesome-Prince)
+Copyright (c) 2022, TeamAloneOp (https://github.com/TeamAloneOp)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -50,8 +50,8 @@ System Commands Available:
 ❍ /start: Cʜᴇᴄᴋ Mᴇ... Iꜰ I Aᴍ Aʟɪᴠᴇ Oʀ Nᴏᴛ
 ❍ /help: Usᴇ Tʜɪs... Iꜰ Yᴏᴜ Nᴇᴇᴅ Mᴏʀᴇ Iɴꜰᴏ Aʙᴏᴜᴛ Mᴇ!
 ━━━━━━━━━━━━━━━━━━━━━━━━
-For Issues Report At @Programmer_Support
-Powered by @Besties_XD [🖥](https://telegra.ph/file/b7d0d2c10a56e3b739611.png)
+For Issues Report At @AlonesHeaven
+Powered by @AloneXBots [🖥](https://telegra.ph/file/b7d0d2c10a56e3b739611.png)
 ━━━━━━━━━━━━━━━━━━━━━━━━
 All commands can either be used with /.
 

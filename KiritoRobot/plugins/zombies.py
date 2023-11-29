@@ -1,7 +1,7 @@
 """
 BSD 2-Clause License
 
-Copyright (c) 2022, Awesome-Prince (https://github.com/Awesome-Prince)
+Copyright (c) 2022, TeamAloneOp (https://github.com/TeamAloneOp)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
