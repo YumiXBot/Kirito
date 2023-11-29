@@ -47,12 +47,12 @@ async def start(event):
         await event.reply(
             PM_START_TEXT.format(event.sender.first_name),
             buttons = [
-    [Button.url("Add To Your Guild", "https://t.me/KiritoXBot?startgroup=true")],
+    [Button.url("Aᴅᴅ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ", "https://t.me/KiritoXBot?startgroup=true")],
     [
-        Button.inline("Terms And Conditions", data="tc"),
-        Button.url("Error Report", "https://t.me/AlonesHeaven"),
+        Button.inline("Cʀᴀᴅɪᴛ", data="tc"),
+        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/AlonesHeaven"),
     ],
-    [Button.inline("System Call", data="help")],
+    [Button.inline("Cᴀᴍᴍᴀᴍᴅs", data="help")],
 ],
            )
 
@@ -85,12 +85,12 @@ async def t_c(e):
 @swordinline(pattern=r"back")
 async def _(event):
     btn = [
-    [Button.url("Add To Your Guild", "https://t.me/KiritoXBot?startgroup=true")],
+    [Button.url("Aᴅᴅ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ", "https://t.me/KiritoXBot?startgroup=true")],
     [
-        Button.inline("Terms And Conditions", data="tc"),
-        Button.url("Error Report", "https://t.me/AlonesHeaven"),
+        Button.inline("Cʀᴀᴅɪᴛ", data="tc"),
+        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/AlonesHeaven"),
     ],
-    [Button.inline("System Call", data="help")],
+    [Button.inline("Cᴀᴍᴍᴀᴍᴅs", data="help")],
 ]
 
     await event.edit(PM_START_TEXT.format(event.sender.first_name), buttons=btn)
